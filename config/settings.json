@@ -1,0 +1,12 @@
+{
+    "default_output_dir": "scans/",
+    "default_preset": "quick",
+    "theme": "dark",
+    "api_keys": {
+        "osv": ""
+    },
+    "welcome": {
+        "enable_animation": true,
+        "tip_of_day": true
+    }
+}

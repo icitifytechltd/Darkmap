@@ -1,0 +1,1 @@
+product,version_pattern,cve,description,url\nopenssl,1.1.1.*,CVE-2020-1967,Example OpenSSL local buffer overflow,https://example.com\nnginx,1.14.*,CVE-2019-20372,Example nginx issue,https://example.com\n

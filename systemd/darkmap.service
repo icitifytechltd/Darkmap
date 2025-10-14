@@ -1,0 +1,15 @@
+[Unit]
+Description=Dark-Map Web Frontend (Gunicorn)
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/darkmap/web
+ExecStart=/usr/bin/gunicorn --workers 3 --bind 0.0.0.0:8080 app:app
+Restart=always
+Environment="FLASK_ENV=production"
+Environment="PATH=/usr/bin"
+
+[Install]
+WantedBy=multi-user.target
