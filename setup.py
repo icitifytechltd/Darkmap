@@ -4,7 +4,7 @@ setup(
     name="darkmap",
     version="2.0",
     author="ICITIFY TECH",
-    description="Dark-Map — Advanced Python wrapper around Nmap with plugin support.",
+    description="Dark-Map — All-in-One Nmap Automation Framework",
     packages=find_packages(),
     install_requires=["jinja2", "requests", "python-nmap"],
     entry_points={
