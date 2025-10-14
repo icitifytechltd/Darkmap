@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+
+# Make a symlink so users can run 'darkmap' from anywhere
+ln -sf /opt/darkmap/darkmap.py /usr/local/bin/darkmap
+chmod +x /usr/local/bin/darkmap
+
+exit 0
