@@ -1,5 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 set -e
-ln -sf /opt/darkmap/darkmap.py /usr/local/bin/darkmap
-chmod +x /usr/local/bin/darkmap
+
+# Create symlink only if the executable exists
+if [ -f "/usr/local/lib/darkmap/darkmap.py" ]; then
+    ln -sf /usr/local/lib/darkmap/darkmap.py /usr/local/bin/darkmap
+    chmod +x /usr/local/bin/darkmap
+fi
+
 exit 0
