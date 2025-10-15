@@ -1,6 +1,6 @@
 # Darkmap — Dark‑Map v2 (Ultimate Edition)
 ---
-title: Darkmap v2
+Darkmap v2
 ---
 
 **Dark‑Map v2** is an enhanced **Nmap** wrapper and automation framework that brings together fast presets, a Textual TUI, dynamic welcome/splash, plugin hooks, CVE lookup utilities, and flexible report export (CSV/HTML). It is designed for penetration testers, network engineers, and security researchers who need a single, extensible tool to orchestrate and parse nmap scans.
